@@ -28,6 +28,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # WitAqua stuff
 PROCESSOR_INFO := Qualcomm Snapdragon 439
+TARGET_BOOTANIMATION_SOUND_SUPPORTED := false
 WITAQUA_MAINTAINER := kailua
 
 # Device identifier. This must come after all inclusions
